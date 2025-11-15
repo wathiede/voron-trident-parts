@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+      <meta charset="utf-8" />
+      <meta name="viewport" content="width=device-width, user-scalable=no" />
+      <title>Photo album - Gantry</title>
+      <link rel="stylesheet" href="public/lightgallery/css/lightgallery.css" />
+      <link rel="stylesheet" href="public/lightgallery/css/lg-exif.min.css" />
+      <link rel="stylesheet" href="public/videojs/video-js.min.css" />
+      <link rel="stylesheet" href="public/core.css" />
+      <link rel="stylesheet" href="public/theme.css" />
+  </head>
+
+  <body>
+
+    <header>
+      <a href="index.html">
+        <h1>Photo album</h1>
+      </a>
+    </header>
+    
+    <!--
+      Breadcrumbs of parent albums
+    -->
+      <nav class="breadcrumbs">
+    <a class="breadcrumb-item" href="index.html">Home</a>&nbsp;&nbsp;≫&nbsp;&nbsp;<a class="breadcrumb-item" href="Gantry.html">Gantry</a>
+      </nav>
+    
+    <!--
+      Nested albums
+    -->
+    <ul id="galleries">
+     <li>
+       <a href="Gantry-AB_Drive_Units.html">
+         <h3>AB Drive Units</h3>
+         <div class="meta">
+           7 photos<br />
+           15 Nov 2025 - 15 Nov 2025
+         </div>
+         <ul class="grid"><li><img src="media/thumbs/Gantry/AB_Drive_Units/%5Ba%5D_wire_cover.png" /></li><li><img src="media/thumbs/Gantry/AB_Drive_Units/%5Ba%5D_y_endstop_bumper.png" /></li><li><img src="media/thumbs/Gantry/AB_Drive_Units/%5Ba%5D_y_endstop_housing.png" /></li><li><img src="media/thumbs/Gantry/AB_Drive_Units/a_drive_frame_lower.png" /></li>     </ul>
+       </a>
+     </li>
+     <li>
+       <a href="Gantry-Front_Idlers.html">
+         <h3>Front Idlers</h3>
+         <div class="meta">
+           4 photos<br />
+           15 Nov 2025 - 15 Nov 2025
+         </div>
+         <ul class="grid"><li><img src="media/thumbs/Gantry/Front_Idlers/%5Ba%5D_tensioner_left.png" /></li><li><img src="media/thumbs/Gantry/Front_Idlers/%5Ba%5D_tensioner_right.png" /></li><li><img src="media/thumbs/Gantry/Front_Idlers/front_idler_a_x2.png" /></li><li><img src="media/thumbs/Gantry/Front_Idlers/front_idler_b_x2.png" /></li>     </ul>
+       </a>
+     </li>
+     <li>
+       <a href="Gantry-X_Axis.html">
+         <h3>X Axis</h3>
+         <div class="meta">
+           2 albums, 13 photos<br />
+           15 Nov 2025 - 15 Nov 2025
+         </div>
+         <ul class="grid"><li><img src="media/thumbs/Gantry/X_Axis/XY_Joints/%5Ba%5D_endstop_pod_D2F_switch.png" /></li><li><img src="media/thumbs/Gantry/X_Axis/XY_Joints/%5Ba%5D_endstop_pod_hall_effect.png" /></li><li><img src="media/thumbs/Gantry/X_Axis/XY_Joints/%5Ba%5D_xy_joint_cable_bridge_2hole.png" /></li><li><img src="media/thumbs/Gantry/X_Axis/XY_Joints/%5Ba%5D_xy_joint_cable_bridge_3hole.png" /></li>     </ul>
+       </a>
+     </li>
+    </ul>
+    
+    <hr/>
+    
+    <!--
+      Render all thumbnails
+    -->
+    <ul id="media">
+        
+          <li data-src="media/large/Gantry/chain_wire_anchor_3hole_x2.png"
+              data-sub-html="chain_wire_anchor_3hole_x2"
+              data-download-url="https://github.com/VoronDesign/Voron-2/blob/Voron2.4/STLs/Gantry/chain_wire_anchor_3hole_x2.stl"
+              
+              data-filename="chain_wire_anchor_3hole_x2.png"
+        
+            >
+            <a href="media/large/Gantry/chain_wire_anchor_3hole_x2.png">
+              <figure>
+                <img src="media/thumbs/Gantry/chain_wire_anchor_3hole_x2.png"
+                     width="120"
+                     height="120"
+                     alt="chain_wire_anchor_3hole_x2.png" />
+                <figcaption class="meta">chain_ wire_ anchor_ 3hole_ x2</figcaption>
+              </figure>
+            </a>
+          </li>    
+          <li data-src="media/large/Gantry/chain_wire_anchor_a_3hole.png"
+              data-sub-html="chain_wire_anchor_a_3hole"
+              data-download-url="https://github.com/VoronDesign/Voron-2/blob/Voron2.4/STLs/Gantry/chain_wire_anchor_a_3hole.stl"
+              
+              data-filename="chain_wire_anchor_a_3hole.png"
+        
+            >
+            <a href="media/large/Gantry/chain_wire_anchor_a_3hole.png">
+              <figure>
+                <img src="media/thumbs/Gantry/chain_wire_anchor_a_3hole.png"
+                     width="120"
+                     height="120"
+                     alt="chain_wire_anchor_a_3hole.png" />
+                <figcaption class="meta">chain_ wire_ anchor_ a_ 3hole</figcaption>
+              </figure>
+            </a>
+          </li></ul>
+    
+    <!--
+      Pagination
+    -->
+    
+    <!--
+      Zip file link
+    -->
+    
+    
+    <!--
+      Optional footer
+    -->
+    <!-- Video loader -->
+    <div id="videos">
+    </div>
+
+    <!-- jQuery -->
+    <script src="public/jquery.min.js"></script>
+    <!-- VideoJS -->
+    <script src="public/videojs/video.min.js"></script>
+    <!-- LightGallery -->
+    <script src="public/lightgallery/js/lightgallery.js"></script>
+    <script src="public/lightgallery/js/lg-autoplay.js"></script>
+    <script src="public/lightgallery/js/lg-pager.js"></script>
+    <script src="public/lightgallery/js/lg-thumbnail.js"></script>
+    <script src="public/lightgallery/js/lg-video.js"></script>
+    <script src="public/lightgallery/js/lg-exif.min.js"></script>
+
+    <script>
+      $(document).ready(function() {
+        $("#media").lightGallery({
+          thumbWidth: 80,
+          controls: true,
+          loop : false,
+          download: true,
+          counter: true,
+          videojs: true
+        });
+      });
+    </script>
+
+
+  </body>
+
+</html>
